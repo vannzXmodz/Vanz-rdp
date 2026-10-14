@@ -53,5 +53,67 @@
     "audio_output": "rdp_playback_enabled",
     "microphone": "rdp_capture_enabled",
     "wallpaper": "xyverse_configured_for_user_logon"
+  },
+  "grafis": {
+    "note": "Optional isolated CPU renderer files; not activated or benchmarked.",
+    "mesa": "26.2.4",
+    "mode": "toolkit_only",
+    "adapters": "Microsoft Hyper-V Video"
+  },
+  "extras": {
+    "lightshot": "ok",
+    "translucent": "disabled",
+    "wallpaper": "ok",
+    "wallpaper_file": "wallpaper.jpg",
+    "vscode": "skip",
+    "notepadpp": "skip",
+    "admin": false
+  },
+  "samp": {
+    "samp_installed": false,
+    "vcredist": "verified_x86_x64_and_2013_x86",
+    "netfx3": "Enabled",
+    "status": "dependencies_ready",
+    "play_tested": false,
+    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+    "gta_installed": false,
+    "directplay": "Enabled",
+    "directx": "verified_x86_x64"
+  },
+  "game_environment": {
+    "os": "Microsoft Windows Server 2025 Datacenter",
+    "play_tested": false,
+    "hypervisor_present": true,
+    "windows_server": true,
+    "runner": "windows-latest"
+  },
+  "games": {
+    "minecraft_java": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    },
+    "roblox": {
+      "status": "unsupported_environment",
+      "note": "Roblox mensyaratkan Windows 10/11 desktop 64-bit dan dukungan GPU. Windows Server runner bukan target yang didukung; memasang DX9 tidak mengubah ini."
+    },
+    "samp": {
+      "samp_installed": false,
+      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+      "gta_installed": false,
+      "game_dir": null,
+      "status": "dependencies_ready"
+    },
+    "minecraft_bedrock": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    }
+  },
+  "host_tools": {
+    "winrar": "verified 7.23.0 (vendor trial; license not included)",
+    "vcredist": "verified_current_v14_x86_x64",
+    "xampp": "verified_files_php_apache_config_mariadb_version; services not started",
+    "firewall7777": "verified_TCP_UDP_inbound_rules; not_public_forwarding",
+    "errors": [],
+    "public_port": false
   }
 }
